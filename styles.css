@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    min-width: 720px;
+    font-family: sans-serif;
+}
+.header {
+  width: 100%;
+}
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #80f080;
+    white-space: nowrap;
+}
+.logo-container {
+    height: auto;
+    background-color: #80f080;
+    padding: 0px 30px 0px 30px;
+}
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 16px 16px 16px 0px;
+    background-color: #80f080;
+}
+a.nav-item {
+    padding: 10px 20px;
+    margin: 0px;
+    background-color: #108010;
+    text-decoration: none;
+}
+a.nav-item > li {
+    font-size: 20px;
+    color: white;
+    padding: 0px 0px;
+    list-style: none;
+}
+a.nav-item:hover {
+    background-color: #10b010;
+}
+li.nav-item.active {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0px;
+    color: #108010;
+    font-size: 20px;
+    background-color: #c0f0c0;
+}
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+h3 {
+    font-size: 18px;
+    text-align: center;
+    padding: 2px;
+}
+.allcontent {
+    display: flex;
+    justify-content: center;
+    background-color: #c0f0c0;
+}
+.incontent {
+    max-width: 960px;
+    margin: 0px;
+}
+p.mainpa {
+    font-size: 22px;
+    padding: 5px 20px;
+}
+p.mainpai {
+    font-size: 22px;
+    font-style: italic;
+    text-align: right;
+    padding: 5px 20px;
+}
+a.mainpac {
+    font-size: 18px;
+    text-decoration: none;
+    text-decoration-color: red;
+    color: blue;
+    padding: 5px 20px;
+}
+a.mainpac:hover {
+    color: red;
+}
+img.leftimg {
+    float: left;
+    padding: 0px 20px 10px 20px;
+}
