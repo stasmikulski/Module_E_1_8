@@ -2,6 +2,7 @@ body {
     margin: 0px;
     min-width: 720px;
     font-family: sans-serif;
+    background-color: #c0f0c0;
 }
 .header {
   width: 100%;
@@ -63,7 +64,6 @@ h3 {
 .allcontent {
     display: flex;
     justify-content: center;
-    background-color: #c0f0c0;
 }
 .incontent {
     max-width: 960px;
